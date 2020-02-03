@@ -18,17 +18,17 @@ const Button = styled.button`
  *
  * - `test` 컴퍼넌트입니다.
  */
-function PButton(props) {
+function WButton(props) {
   return <Button {...props}>{props.children}</Button>
 }
 
-PButton.propTypes = {
+WButton.propTypes = {
   /** test docs */
   value: PropTypes.string,
 };
 
-PButton.defaultProps = {
+WButton.defaultProps = {
   value: 'helloworld'
 };
 
-export default PButton;
+export default WButton;

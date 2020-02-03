@@ -1,12 +1,12 @@
 import React from 'react';
-import PCheckbox from '.';
+import WCheckbox from '.';
 
 export default {
-  title: 'PCheckbox',
-  component: PCheckbox,
+  title: 'WCheckbox',
+  component: WCheckbox,
 };
 
-export const component = () => <PCheckbox>hello</PCheckbox>;
+export const component = () => <WCheckbox>hello</WCheckbox>;
 
 component.story = {
   name: '체크박스',
