@@ -1,15 +1,15 @@
 import React from 'react';
-import PButton from '.';
+import WButton from '.';
 
 export default {
-  title: 'PButton',
-  component: PButton,
+  title: 'WButton',
+  component: WButton,
   parameters: {
     componentSubtitle: '서브타이틀 영역'
   }
 };
 
-export const component = () => <PButton>hello</PButton>;
+export const component = () => <WButton>hello</WButton>;
 
 component.story = {
   name: '버튼',
