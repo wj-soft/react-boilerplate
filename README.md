@@ -1,4 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+## Create React App에 패키지 추가 구성
+
+* [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)
+* [antd](https://ant.design/docs/react/introduce)
+* [styled-component](https://styled-components.com/)
+* [storybook](https://storybook.js.org/)
+* [echart-for-react](https://github.com/hustcc/echarts-for-react)
+
+## 컴퍼넌트 구조
+
+* [아토믹디자인 가이드](https://atomicdesign.bradfrost.com/)
+* atoms > modules > organisms > templates >= pages
 
 ## Available Scripts
 
